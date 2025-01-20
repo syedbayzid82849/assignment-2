@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,325;1,325&display=swap');
+
+.work-sans{
+    font-family: "Work Sans", serif;
+    /* font-optical-sizing: auto;
+    font-weight: 325;
+    font-style: normal; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+            /* nav-start */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+}
+.logo h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.nav ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+.nav ul a{
+    margin-right: 32px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.home{
+    color: #FEA301 ;
+
+}
+.about{
+    color: #01ACFD ;
+}
+.facilities{
+    color: #05D4DF ;
+}
+.admission{
+    color: #5D58EF ;
+}
+
+.btn button a{
+    background-color: #FEA301;
+    border-radius: 12px;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+.btn button a:hover{
+    background-color: #ffdd00;
+    color: #FFFFFF;
+    transition:  0.3s ; 
+
+
+}
+
+/* hero-section  */
+
+.hero{
+
+
+    width: 1160px;
+    height: 575px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p, .content-btn{
+    padding: 24px 0;
+}
+.hero .content h1{
+    font-size: 56px;
+    font-weight: 900;
+    color: #111111;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #111111;
+}
+.hero button {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 47px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+.hero a{
+    color: #FFFFFF;
+}
+.hero button:hover {
+    background-color: #FEA301;
+    color: #111111;
+    transition:  0.3s ; 
+}
+
