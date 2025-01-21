@@ -631,12 +631,58 @@ header, main, footer{
 
 
 
-    /* Our-Stories-section-2 */
-    
+
+        /* Our-Stories-section-2 */
+
+
+    .section-2{
+        margin-top: 600px;
+    }
+    .story-box {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0;
+        gap: 10px;
+    }
+
+    .story-box-1 {
+        display: none;
+    }
+
+    .story-box-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 0 20px;
+    }
+
+    .story-2, .story-3, .story-4, .story-5 {
+        width: 100%;
+    }
+
+    .story-box-2 img {
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .section-2 {
+        padding: 20px;
+    }
+
+    .section-2 h1 {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .section-2 button {
+        position: absolute;
+        bottom: -3070px;  /* Position it 20px from the bottom */
+        font-size: 16px;
+        padding: 10px 30px;
+    }
 
 
 
-    
 
 
 }
