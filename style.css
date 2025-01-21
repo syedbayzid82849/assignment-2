@@ -20,6 +20,7 @@ body{
     width: 100%;
     margin: 0 auto;
     background-image: url(assets/bg.png);
+    
 }
 
             /* nav-start */
@@ -295,24 +296,126 @@ header, main, footer{
     height: 1018px;
     margin: auto;
     background: linear-gradient(to top, #fdf4e9, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 170px;
+    color: #000000;
+}
+
+.story-box{
+    width: 1160px;
+    height: 630px;
+    display: flex;
+    margin: 190px 140px;
+    gap: 20px;
+}
+
+.story-box-2{
+    display: grid;
+    grid-template-columns: repeat(2, 290px);
+    grid-template-rows: repeat(2, 302px );
+    gap: 20px;
 
 
 }
+.story-2, .story-3, .story-4, .story-5{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.section-2 img{
+    border-radius: 16px 16px 0 0 ;
+    
+
+}
+
+.story-box-1{
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.story-1 p{
+    margin: 50px 45px ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.story-1 h3{
+    margin: 50px 45px ;
+    font-size: 24px;
+    font-weight: 900;
+}
+.story-1 .story-content{
+    margin-top: -15px;
+}
 
 
+  
+.date {
+    margin:36px;
+    padding: 15px 20px;
+    background: #00c4cc;
+    color: #fff;
+    border-radius: 48px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
 
 
+.story-box-2 h3{
+    font-size: 16px;
+    font-weight: 900;
+    margin: 36px 35px;
+    color: #000000;
+}
+.story-box-2 .story-content{
+    margin-top: -15px;
+}
 
+.story-2 .date{
+    background-color: #95B226;
+}
+.story-3 .date{
+    background-color: #5D58F0;
 
+    
+}
+.story-4 .date{
+    background-color: #36ec7c;
 
+    
+}
+.story-5 .date{
+    background-color: #eb3f47;
 
+    
+}
+.section-2 button {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 61px;
+    background-color: #111111;
+    border-radius: 12px;
+    margin: -170px -70px;
+}
 
+.section-2 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
-
-
-
-
-
+.section-2 button:hover {
+    background-color: #ffdd00;
+}
 
 
 
@@ -521,6 +624,9 @@ header, main, footer{
         text-decoration: none;
         color: #8700FF;
     
+    }
+    .arrow-icon{
+        display: none;
     }
 
 
