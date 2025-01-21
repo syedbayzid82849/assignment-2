@@ -11,10 +11,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    list-style: none; 
     text-decoration: none;
     border: none;
-
 }
 
 body{
@@ -25,6 +24,11 @@ body{
 
             /* nav-start */
 
+header, main, footer{
+    width: 1440px;
+    margin: auto;
+
+}
 .nav{
     width: 1440px;
     margin: auto;
@@ -145,11 +149,185 @@ body{
     transition:  0.3s ; 
 }
 
+/* main-section-start */
+
+.section-1{
+    width: 100%;
+    max-width: 1440px;
+    height: 879px;
+    margin: auto;
+    text-align: center;
+
+}
+.section-1 h1{
+    margin: 60px 490px;
+    font-size: 46px;
+    font-weight: bold;
+}
+.curriculum-card{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 197px;
+    gap: 28px;
+}
+.card-1{
+    width: 368px;
+    height: 476px;
+    border-radius: 19px;
+    box-shadow: 40px;
+
+
+}
+.card-2{
+    width: 368px;
+    height: 476px;
+    border-radius: 19px;
+
+
+}
+.card-3{
+    width: 368px;
+    height: 476px;
+    border-radius: 19px;
+
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.card-content img{
+    width: 137px;
+    height: 137px;
+    margin: 52px 115px 32px;
+    
+}
+.card-content h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #202020;
+}
+.card-content p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #808080;
+    margin: 33px;
+}
+.card-1  button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+
+}
+.card-1 button a{
+    text-decoration: none;
+    color: #64C8FF;
+
+}
+.card-2  button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+
+}
+.card-2 button a{
+    text-decoration: none;
+    color: #F0AA00;
+
+}.card-3  button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+
+}
+.card-3 button a{
+    text-decoration: none;
+    color: #8700FF;
+
+}
+.card-1{
+    background: linear-gradient(180deg, rgba(230, 244, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.card-2{
+    background: linear-gradient(180deg, rgba(255, 248, 230, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+.card-3{
+    background: linear-gradient(180deg, rgba(248, 240, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+.arrow-icon{
+    margin: 80px auto 60px;
+    font-size: 25px;
+
+}
+.arrow-icon i{
+    background-color: #FEA301;
+    border-radius: 50%;
+    padding: 18px;
+    color: #FFFFFF;
+}
+
+.card-1, .card-2, .card-3 {
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+/* Our-Stories-section-2 */
+
+
+
+.section-2{
+    width: 100%;
+    max-width: 1440px;
+    height: 1018px;
+    margin: auto;
+    background: linear-gradient(to top, #fdf4e9, #ffffff);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive  */
 
-@media screen and (max-width: 576px) {
 
+
+@media screen and (max-width: 576px) {
+    header, main, footer{
+        width: 100%;
+        margin: auto;
+        border: 1px solid black;
+    
+    }
     
     .logo h2{
         display: none;
@@ -185,28 +363,185 @@ body{
         font-size: 24px
         cursor: pointer;
     }
-    .hero{
-        display: flex;
+    .hero {
         flex-direction: column-reverse;
+        height: auto;
+        padding: 20px;
     }
-    .hero-image{
-        margin-top: 500px;
-    }
-    .content h1{
-        font-size: 42px;
-        font-weight: 900;
-    }
-    .content{
+    .hero .content {
+        width: 100%;
+        margin-top: 0;
         text-align: center;
-
+    }
+    .hero .content h1 {
+        font-size: 42px;
+    }
+    .hero .content p {
+        font-size: 18px;
+    }
+    .hero .content-btn {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    .hero-image {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .hero-image img {
+        width: 90%;
+        margin: 0 auto;
     }
 
-    .content h1{
+
+
+
+    /* main-section-start */
+
+
+
+    /* Standard-Curriculum-section-1 */
+
+
+
+    .section-1{
+        margin: 70px auto;
+    }
+    .section-1 h1 {
+        font-size: 28px;
+        margin: 10px auto;
+    }
+
+    .curriculum-card {
+        gap: 15px; /* Reduce gap */
+        margin-top: 30px;
+    }
+
+    .card-content img {
+        width: 80px;
+        height: 80px;
+        margin: 15px auto;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 12px;
+        margin: 15px;
+    }
+
+    .arrow-icon {
+        margin: 20px auto 10px;
+        font-size: 16px;
+    }
+
+    .arrow-icon i {
+        padding: 10px;
+    }
+
+    .card-1{
+        width: 368px;
+        height: 476px;
+        border-radius: 19px;
+    
+    
+    }
+    .card-2{
+        width: 368px;
+        height: 476px;
+        border-radius: 19px;
+    
+    
+    }
+    .card-3{
+        width: 368px;
+        height: 476px;
+        border-radius: 19px;
+    
+    
+    }
+    .card-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    
+    }
+    .card-content img{
+        width: 137px;
+        height: 137px;
+        margin: 52px 115px 32px;
+        
+    }
+    .card-content h3{
+        font-size: 25px;
+        font-weight: bold;
+        color: #202020;
+    }
+    .card-content p{
+        font-size: 16px;
+        font-weight: 500;
+        color: #808080;
+        margin: 33px;
+    }
+    .card-1  button{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: transparent;
+        border: none;
+    
+    }
+    .card-1 button a{
+        text-decoration: none;
+        color: #64C8FF;
+    
+    }
+    .card-2  button{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: transparent;
+        border: none;
+    
+    }
+    .card-2 button a{
+        text-decoration: none;
+        color: #F0AA00;
+    
+    }.card-3  button{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: transparent;
+        border: none;
+    
+    }
+    .card-3 button a{
+        text-decoration: none;
+        color: #8700FF;
+    
     }
 
 
 
+    /* Our-Stories-section-2 */
+    
 
+
+
+    
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
