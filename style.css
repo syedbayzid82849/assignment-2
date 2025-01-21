@@ -2,9 +2,7 @@
 
 .work-sans{
     font-family: "Work Sans", serif;
-    /* font-optical-sizing: auto;
-    font-weight: 325;
-    font-style: normal; */
+
 }
 
 *{
@@ -23,7 +21,7 @@ body{
     
 }
 
-            /* nav-start */
+ /* nav-start */
 
 header, main, footer{
     width: 1440px;
@@ -418,6 +416,71 @@ header, main, footer{
 }
 
 
+    /* footer-start */
+
+
+.footer {
+    background-color: #01ACFD;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.footer .footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer .footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    color: #fff;
+}
+
+
 
 
 /* Responsive  */
@@ -630,8 +693,6 @@ header, main, footer{
     }
 
 
-
-
         /* Our-Stories-section-2 */
 
 
@@ -676,12 +737,23 @@ header, main, footer{
 
     .section-2 button {
         position: absolute;
-        bottom: -3070px;  /* Position it 20px from the bottom */
+        bottom: -3070px;  
         font-size: 16px;
         padding: 10px 30px;
     }
 
+        /* footer-start */
 
+
+    .footer {
+        background-color: #01ACFD;
+        color: #fff;
+        text-align: center;
+        padding: 20px 10px;
+        position: relative;
+        bottom: -750px;
+        width: 100%;
+    }
 
 
 
