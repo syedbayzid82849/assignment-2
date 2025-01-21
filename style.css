@@ -16,19 +16,25 @@
     border: none;
 
 }
+
 body{
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
             /* nav-start */
 
 .nav{
+    width: 1440px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 140px;
+    padding : 20px 140px;
 
+}
+.menubar{
+    display: none;
 }
 .logo{
     display: flex;
@@ -125,4 +131,7 @@ body{
     color: #111111;
     transition:  0.3s ; 
 }
+
+
+/* Responsive  */
 
