@@ -516,6 +516,8 @@ header, main, footer{
         justify-content: space-between;
         align-items: center;
         padding: 15px 25px;
+        border: 1px solid #ffdd00;
+
     }
 
     .logo {
